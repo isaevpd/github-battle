@@ -4,7 +4,7 @@ import * as ReactRouter from 'react-router-dom';
 import Nav from './Nav';
 import Home from './Home';
 import Battle from './Battle';
-import Switch from 'react-router-dom/es/Switch';
+import {Switch} from 'react-router-dom';
 
 const Router = ReactRouter.BrowserRouter;
 const Route = ReactRouter.Route;
